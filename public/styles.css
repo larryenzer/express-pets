@@ -280,6 +280,7 @@ body {
 
   .list-of-pets {
     row-gap: 25px;
+    column-gap: 18px;
     grid-template-columns: 1fr 1fr;
   }
 
