@@ -112,7 +112,7 @@ body {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .intro-features {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -217,7 +217,7 @@ body {
 
 .list-of-pets {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   column-gap: 10px;
   row-gap: 16px;
 }
@@ -266,7 +266,7 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 750px) {
   .pet-card {
     grid-template-columns: 160px 1fr;
   }
