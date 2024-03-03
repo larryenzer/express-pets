@@ -217,8 +217,9 @@ body {
 
 .list-of-pets {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  column-gap: 34px;
+  /* grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); */
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
   row-gap: 16px;
 }
 
@@ -276,7 +277,7 @@ body {
   }
 
   .list-of-pets {
-    row-gap: 28px;
+    row-gap: 25px;
   }
 
   .pet-filter {
