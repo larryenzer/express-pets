@@ -106,13 +106,13 @@ body {
   row-gap: 16px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
   .intro-features {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 750px) {
   .intro-features {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
