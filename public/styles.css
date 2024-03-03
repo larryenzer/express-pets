@@ -546,7 +546,8 @@ textarea.form-field {
   cursor: pointer;
   top: 0;
   right: 12px;
-  color: rgba(0, 0, 0, 0.41);
+  font-weight: 700;
+  color: rgba(203, 243, 26, 0.779);
   font-size: 2.25rem;
   transform: scaleX(1.2);
   opacity: .7;
