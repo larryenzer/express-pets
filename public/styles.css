@@ -438,7 +438,7 @@ textarea.form-field {
 /* Contact Form Styles */
 .form-overlay {
   overflow-y: auto;
-  background-color: rgba(255, 255, 255, .85);
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(5px);
   position: fixed;
   top: 0;
@@ -488,32 +488,24 @@ textarea.form-field {
     align-content: center;
   }
 
-  .form-overlay-inner {
+  .form-content {
+    padding: 38px 54px;
     position: relative;
-    max-width: 880px;
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.07);
-    background-color: #FFF;
-    margin: 16px;
-    flex: 1;
-    align-self: center;
-    display: grid;
+  }
+
+  .form-overlay-inner {
     grid-template-columns: 340px 1fr;
   }
 
   .form-photo {
     height: auto;
   }
-
-  .form-content {
-    padding: 38px 54px;
-    position: relative;
-  }
 }
 
 .form-photo p {
   line-height: 1.2;
-  color: #555;
   font-size: 0.9375rem;
+  color: #555;
   position: absolute;
   margin: 0;
   padding: 16px 25px;
@@ -546,12 +538,12 @@ textarea.form-field {
 .close-form-overlay {
   z-index: 101;
   position: absolute;
+  cursor: pointer;
   top: 0;
   right: 12px;
-  color: rgba(0, 0, 0, .41);
+  color: rgba(0, 0, 0, 0.41);
   font-size: 2.25rem;
-  transform:  scaleX(1.2);
-  cursor: pointer;
+  transform: scaleX(1.2);
   opacity: .7;
 }
 
@@ -587,7 +579,7 @@ textarea.form-field {
   background-color: #FFF;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   transition: all .3s ease-out;
 }
 
@@ -597,23 +589,24 @@ textarea.form-field {
 }
 
 .thank-you p {
-  align-items: center;
+  align-self: center;
   font-size: 1.4rem;
 }
 
 .thank-you svg {
-  color: rgb(8, 139, 8);
+  color: rgb(12, 189, 12);
   position: relative;
   top: 4px;
   margin-right: 4px;
 }
 
 .contact-list {
-  border-collapse: collapse;
   width: 100%;
+  border-collapse: collapse;
 }
 
-.contact-list th, .contact-list td {
+.contact-list th,
+.contact-list td {
   padding: 10px;
   vertical-align: top;
 }
@@ -622,7 +615,7 @@ textarea.form-field {
   text-align: left;
   font-weight: normal;
   font-size: .87rem;
-  color: #7D7D7D;
+  color: #7d7d7d;
   padding: 0 10px;
 }
 
@@ -631,5 +624,5 @@ textarea.form-field {
 }
 
 .contact-list tr:nth-child(even) {
-  background-color: #F1F1F1;
+  background-color: #f1f1f1;
 }
