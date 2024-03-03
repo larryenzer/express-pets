@@ -218,7 +218,7 @@ body {
 .list-of-pets {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  column-gap: 20px;
+  column-gap: 10px;
   row-gap: 16px;
 }
 
@@ -266,7 +266,7 @@ body {
   margin: 0;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .pet-card {
     grid-template-columns: 160px 1fr;
   }
