@@ -268,7 +268,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .pet-card {
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 180px 1fr;
   }
 }
 
