@@ -172,16 +172,18 @@ body {
 
 .pet-filter {
   color: #9F9F9F;
-  font-size: 1.15rem;
+  font-size: 1.10rem;
 }
 
 .pet-filter button {
   background-color: transparent;
   border: none;
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 1.15rem;
+  font-size: 1.10rem;
   color: #9F9F9F;
   cursor: pointer;
+  padding-left: 3px;
+  padding-right: 3px; 
 }
 
 .pet-filter button:hover {
